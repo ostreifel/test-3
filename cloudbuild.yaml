@@ -11,3 +11,5 @@ artifacts:
   objects:
     location: 'gs://${_BUCKET}/artifacts/$BRANCH_NAME/$REVISION_ID'
     paths: [README.md]
+options:
+  machineType: n1-highmem-8
